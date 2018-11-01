@@ -9,7 +9,7 @@ public class Principal {
 	public static void main(String[] args) {
 		ApiClient client = new ApiClient("A1E-ed8f63f9dda07642896b35ba411e437f9240"); //Coloque_Aqui_Seu_Api_Key
 		
-		DataSource ds = client.getDataSource("5bda4fe9c03f97413ca5f543"); 
+		DataSource ds = client.getDataSource("5bda4fe9c03f97413ca5f543"); //Coloque aqui sua Dispositivo ID
 		
 		Variable[] vars = ds.getVariables();
 		
